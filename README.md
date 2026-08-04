@@ -1,5 +1,7 @@
 # Multiplying flow and pressure — data and interactive review tool
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21786466.svg)](https://doi.org/10.5281/zenodo.21786466)
+
 ![Graphical abstract. Neither flow nor airway pressure alone allows detection of ventilation
 cycle timing, because artefacts introduced by chest compression and recoil complicate
 measurement of intra-arrest ventilation. An inspiratory product (flow × pressure) and an
@@ -115,12 +117,16 @@ the mouse wheel over a subplot to rescale that trace vertically.
 
 **In your browser, nothing to install:**
 
-[![Launch the review interface](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sorlob/flow_pressure_product/HEAD?urlpath=voila%2Frender%2Freview_ground_truth.ipynb)
+[![Launch the review interface](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/zenodo/10.5281/zenodo.21786466/?urlpath=%2Fvoila%2Frender%2Freview_ground_truth.ipynb)
 
-This is the environment referenced in the article. The first start takes a few minutes
-while the environment is built, and Voilà then executes the notebook before the interface
-appears — allow about a minute more. To read or modify the code instead, replace
-`voila/render` in the URL with `doc/tree`.
+This runs on [Binder](https://mybinder.org/) from the archived Zenodo release rather than
+from this branch, so it shows released data whatever happens here later. The first start
+takes a few minutes while the environment is built, and Voilà then executes the notebook
+before the interface appears — allow about a minute more. To read or modify the code
+instead, replace `voila/render` in the URL with `doc/tree`.
+
+The article cites a Binder link that builds from this repository's default branch instead
+of from the archive. It continues to work.
 
 Locally:
 
@@ -138,6 +144,12 @@ published.
 If you use these data, please cite the article above. Attribution is not merely a
 courtesy here: the data are licensed under CC BY 4.0, which requires it.
 [CITATION.cff](CITATION.cff) carries the citation in machine-readable form.
+
+The dataset itself is archived on Zenodo and carries its own DOI:
+
+- **All versions:** [10.5281/zenodo.21786466](https://doi.org/10.5281/zenodo.21786466) —
+  use this one unless you need to pin an exact snapshot
+- **v1.0.0:** [10.5281/zenodo.21786467](https://doi.org/10.5281/zenodo.21786467)
 
 ## Acknowledgements
 
