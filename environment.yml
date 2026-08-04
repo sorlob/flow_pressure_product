@@ -4,6 +4,6 @@ channels:
 dependencies:
   - python==3.12
   - voila
-  - vitabel
+  - vitabel==0.1.1
   - pandas
   - ipywidgets

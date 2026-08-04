@@ -1,0 +1,95 @@
+cff-version: 1.2.0
+message: >-
+  If you use these data, please cite the article under `preferred-citation`.
+  To refer to this dataset itself, cite the DOI of the release you used.
+title: >-
+  Multiplying flow and pressure — data and interactive review tool for the
+  detection of respiratory phases in intra-arrest ventilation
+type: dataset
+authors:
+  - family-names: Orlob
+    given-names: Simon
+    orcid: "https://orcid.org/0000-0001-7799-4822"
+    affiliation: >-
+      Department of Anaesthesia and Intensive Care,
+      Medical University of Innsbruck, Innsbruck, Austria
+  - family-names: Purkarthofer
+    given-names: David
+    orcid: "https://orcid.org/0000-0002-8927-3069"
+    affiliation: Medical University of Graz, Graz, Austria
+version: v1.0.0
+license: MIT
+repository-code: "https://github.com/sorlob/flow_pressure_product"
+keywords:
+  - cardiopulmonary resuscitation
+  - ventilation
+  - mechanical ventilation
+  - chest compressions
+  - ventilation timing
+  - respiratory phase detection
+  - porcine model
+references:
+  - type: software
+    title: "vitabel: A Python Toolbox for Interactively Annotating and Labelling Vital Data"
+    authors:
+      - family-names: Orlob
+        given-names: Simon
+        orcid: "https://orcid.org/0000-0001-7799-4822"
+      - family-names: Hackl
+        given-names: Benjamin
+        orcid: "https://orcid.org/0000-0003-2998-9599"
+      - family-names: Kern
+        given-names: Wolfgang J.
+        orcid: "https://orcid.org/0000-0001-5080-382X"
+    doi: "10.5281/zenodo.15771826"
+    year: 2025
+    notes: >-
+      The library used to annotate, store and visualise the recordings in this
+      dataset.
+preferred-citation:
+  type: article
+  title: >-
+    Multiplying flow and pressure: detecting respiratory phases in intra-arrest
+    ventilation
+  authors:
+    - family-names: Orlob
+      given-names: Simon
+      orcid: "https://orcid.org/0000-0001-7799-4822"
+    - family-names: Purkarthofer
+      given-names: David
+      orcid: "https://orcid.org/0000-0002-8927-3069"
+    - family-names: Grobbel
+      given-names: Max
+      orcid: "https://orcid.org/0009-0009-7110-9998"
+    - family-names: Holler
+      given-names: Martin
+      orcid: "https://orcid.org/0000-0002-2895-2375"
+    - family-names: Furtmüller
+      given-names: Michael
+      orcid: "https://orcid.org/0009-0000-2196-4974"
+    - family-names: Wittig
+      given-names: Johannes
+      orcid: "https://orcid.org/0000-0001-9131-3157"
+    - family-names: Kern
+      given-names: Wolfgang J.
+      orcid: "https://orcid.org/0000-0001-5080-382X"
+    - family-names: Martini
+      given-names: Judith
+      orcid: "https://orcid.org/0000-0002-3656-4591"
+    - family-names: Gräsner
+      given-names: Jan-Thorsten
+      orcid: "https://orcid.org/0000-0001-8143-0376"
+    - family-names: Putzer
+      given-names: Gabriel
+      orcid: "https://orcid.org/0000-0003-0205-9885"
+    - family-names: Wnent
+      given-names: Jan
+      orcid: "https://orcid.org/0000-0002-8685-858X"
+    - family-names: Hackl
+      given-names: Benjamin
+      orcid: "https://orcid.org/0000-0003-2998-9599"
+  journal: Resuscitation
+  volume: 222
+  start: 111050
+  year: 2026
+  doi: 10.1016/j.resuscitation.2026.111050

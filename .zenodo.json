@@ -1,0 +1,107 @@
+{
+  "upload_type": "dataset",
+  "title": "Multiplying flow and pressure — data and interactive review tool for the detection of respiratory phases in intra-arrest ventilation",
+  "description": "<p>Data and an interactive review interface accompanying the article <em>Multiplying flow and pressure: detecting respiratory phases in intra-arrest ventilation</em> (<em>Resuscitation</em>, 2026;222:111050).</p><p>The article proposes an algorithm that detects respiratory phases and their exact onsets during ventilation with ongoing chest compressions, using the product of airflow and airway pressure for inspiration and the product of airflow and the slope of airway pressure for expiration. It was validated against investigator-established ground truth on ventilatory recordings from 13 pigs: for each animal, 20 ventilations before induction of cardiac arrest (regular ventilation) and 20 ventilations delivered asynchronously during ongoing mechanical chest compressions (intra-arrest ventilation), amounting to 606 s of regular and 1420 s of intra-arrest ventilation.</p><p>Each of the 13 cases is one experiment day, stored as a serialised <code>vitabel</code> <code>Vitals</code> object. Every case holds two recording segments, one per ventilation condition, each carrying airway flow, airway pressure and the two products, together with annotation labels for the experimental phase, the investigator-established ground-truth onsets and intervals, and the onsets detected by the algorithm.</p><p>The repository ships a Voil&agrave; review interface and a conda environment, so the annotations can be inspected breath by breath without local installation.</p><p>Experiments were conducted between November 2022 and January 2023 at the experimental anaesthesia laboratory of the Medical University of Innsbruck, authorised by the Austrian Ministry of Education, Science and Research (BMBWF-V/3b GZ:2021-0.895.386). The experiments complied with Austrian and European regulations concerning the use of laboratory animals.</p>",
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "keywords": [
+    "cardiopulmonary resuscitation",
+    "ventilation",
+    "mechanical ventilation",
+    "chest compressions",
+    "ventilation timing",
+    "respiratory phase detection",
+    "tidal volume",
+    "porcine model",
+    "cardiac arrest"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1016/j.resuscitation.2026.111050",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.15771826",
+      "relation": "references",
+      "resource_type": "software",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/j.resuscitation.2026.111217",
+      "relation": "isReferencedBy",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/j.resplu.2024.100738",
+      "relation": "references",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Orlob, Simon",
+      "orcid": "0000-0001-7799-4822",
+      "affiliation": "Department of Anaesthesia and Intensive Care, Medical University of Innsbruck, Innsbruck, Austria"
+    },
+    {
+      "name": "Purkarthofer, David",
+      "orcid": "0000-0002-8927-3069",
+      "affiliation": "Medical University of Graz, Graz, Austria"
+    },
+    {
+      "name": "Grobbel, Max",
+      "orcid": "0009-0009-7110-9998",
+      "affiliation": "FZI Research Center for Information Technology, Karlsruhe, Germany"
+    },
+    {
+      "name": "Holler, Martin",
+      "orcid": "0000-0002-2895-2375",
+      "affiliation": "Department of Mathematics and Scientific Computing, University of Graz, Graz, Austria"
+    },
+    {
+      "name": "Furtmüller, Michael",
+      "orcid": "0009-0000-2196-4974",
+      "affiliation": "Division of Anaesthesiology and Intensive Care 1, Department of Anaesthesiology and Intensive Care, Medical University of Graz, Graz, Austria"
+    },
+    {
+      "name": "Wittig, Johannes",
+      "orcid": "0000-0001-9131-3157",
+      "affiliation": "Research Center for Emergency Medicine, Aarhus University Hospital, Aarhus, Denmark"
+    },
+    {
+      "name": "Kern, Wolfgang J.",
+      "orcid": "0000-0001-5080-382X",
+      "affiliation": "Department of Mathematics and Scientific Computing, University of Graz, Graz, Austria"
+    },
+    {
+      "name": "Martini, Judith",
+      "orcid": "0000-0002-3656-4591",
+      "affiliation": "Department of Anaesthesia and Intensive Care, Medical University of Innsbruck, Innsbruck, Austria"
+    },
+    {
+      "name": "Gräsner, Jan-Thorsten",
+      "orcid": "0000-0001-8143-0376",
+      "affiliation": "Institute for Emergency Medicine, University Hospital Schleswig-Holstein, Kiel, Germany"
+    },
+    {
+      "name": "Putzer, Gabriel",
+      "orcid": "0000-0003-0205-9885",
+      "affiliation": "Department of Anaesthesia and Intensive Care, Medical University of Innsbruck, Innsbruck, Austria"
+    },
+    {
+      "name": "Wnent, Jan",
+      "orcid": "0000-0002-8685-858X",
+      "affiliation": "Institute for Emergency Medicine, University Hospital Schleswig-Holstein, Kiel, Germany"
+    },
+    {
+      "name": "Hackl, Benjamin",
+      "orcid": "0000-0003-2998-9599",
+      "affiliation": "Department of Mathematics and Scientific Computing, University of Graz, Graz, Austria"
+    }
+  ]
+}
