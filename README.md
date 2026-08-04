@@ -73,8 +73,8 @@ missing events. Annotation and visualisation were carried out with the Python li
 ## What is here
 
 ```
-data/                        13 cases, one JSON per experiment day
-review_ground_truth.ipynb    interactive review interface
+data/                        13 cases, one JSON per experiment day (CC BY 4.0)
+review_ground_truth.ipynb    interactive review interface (MIT)
 environment.yml              conda environment for Binder / local use
 voila.json                   Voilà configuration
 ```
@@ -135,7 +135,9 @@ published.
 
 ## Citing
 
-If you use these data, please cite the article above.
+If you use these data, please cite the article above. Attribution is not merely a
+courtesy here: the data are licensed under CC BY 4.0, which requires it.
+[CITATION.cff](CITATION.cff) carries the citation in machine-readable form.
 
 ## Acknowledgements
 
@@ -145,8 +147,18 @@ first author.
 
 ## Licence
 
-MIT — see [LICENSE](LICENSE).
+Two licences apply, because this repository holds two different kinds of thing.
+
+**The recordings in [`data/`](data/) are licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** — see
+[LICENSE-CC-BY-4.0](LICENSE-CC-BY-4.0). You may share and adapt them for any purpose,
+including commercially, provided you give appropriate credit, link to the licence, and
+indicate whether you made changes. Crediting the article above satisfies this.
+
+**The review notebook and the configuration files are licensed under the MIT licence** —
+see [LICENSE](LICENSE). GitHub reports this repository as MIT because it detects only the
+top-level licence file; the data are nonetheless CC BY 4.0 as stated here and in
+[`data/LICENSE`](data/LICENSE).
 
 The graphical abstract (`graphical-abstract.svg`) is reproduced from the article, which is
-published open access under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), and
-is covered by that licence rather than by the MIT licence above.
+published open access under CC BY 4.0, and is covered by that licence.
